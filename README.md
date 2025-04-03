@@ -16,10 +16,16 @@ Repository Structure
 The repository is organized into distinct folders, each dedicated to a specific model or technique:
 
 .
-├── knee-CNN/                   # CNN-based model implementation for image classification
-├── knee-XAI-app-py-cnn/          # XAI integrated with CNN for model interpretability
-├── knee-svm-randomforest/       # Traditional ML models using SVM and RandomForest
-└── knee-xgboost-randomforest/   # Implementation using XGBoost and RandomForest
+├── knee-CNN/
+# CNN-based model implementation for image classification
+├── knee-XAI-app-py-cnn/          
+# XAI integrated with CNN for model interpretability
+├── knee-svm-randomforest/         
+# Traditional ML models using SVM and RandomForest
+└── knee-xgboost-randomforest/     
+# Implementation using XGBoost and RandomForest
+
+
 Each folder contains Jupyter Notebooks and Python scripts that include data preprocessing, model training, evaluation, and visualization.
 
 Installation
