@@ -1,0 +1,68 @@
+<html>
+
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Play&display=swap" rel="stylesheet">
+
+        <title>Digital Knee X-ray Images Classification</title>
+
+        <meta name="theme-color" content="#ffffff">
+    </head>
+
+<body>
+
+    <div class="very_main">
+
+        <header>
+            <header class="main-header">
+                <h1>Final Year Project by S.K Senura Deshan Perera | CB008868</h1>
+            </header>
+        </header>
+
+        {% extends "base.html" %}
+
+        {% block content %}
+        <div class="very_main">
+            <header class="main-header">
+                <h1>Knee Osteoarthritis Detection and Severity Grading from an Explainable AI Perspective</h1>
+            </header>
+
+            <section class="intro">
+                <h2>Implemented by Keras and Tensorflow</h2>
+                <p class="description">
+                    Choose your Knee X-Ray visual file and click Predict to get your diagnosis.
+                </p>
+            </section>
+
+            <section class="file-upload">
+                <form id="upload-file" method="post" enctype="multipart/form-data">
+                    <label for="imageUpload" class="upload-label">Select your Knee X-Ray Image</label>
+                    <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+                </form>
+            </section>
+
+            <section class="image-display">
+                <div class="image-section" style="display:none;">
+                    <div class="img-preview">
+                        <div id="imagePreview"></div>
+                    </div>
+                    <button type="button" class="btn btn-predict" id="btn-predict">Predict !</button>
+                </div>
+                <div class="loader" style="display:none;"></div>
+                <h3 id="result"><span> </span></h3>
+            </section>
+
+            <footer class="main-footer">
+                <p class="final_word">
+                    Prepared by S.K.S.D Perera |
+                    E-mail: <a href="mailto:cb008868@students.apiit.lk">cb008868@students.apiit.lk</a><br/>
+                    Mentor: Dr.Kasun Karunanayake<br/>
+                    Project Coordinator: Mr. Guhanathan Poravi
+                </p>
+            </footer>
+        </div>
+        {% endblock %}
+
+</body>
+
+</html>
