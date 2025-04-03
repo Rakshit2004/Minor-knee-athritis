@@ -1,4 +1,6 @@
 Minor Knee Arthritis Detection
+
+
 This repository explores various machine learning and deep learning techniques for the detection and classification of minor knee arthritis. It is designed for educational and research purposes, offering implementations using Convolutional Neural Networks (CNN), Explainable AI (XAI) techniques, and traditional machine learning models.
 
 Overview
